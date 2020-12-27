@@ -1,0 +1,28 @@
+name: weather_app
+description: A Weather App made with Flutter.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.3.2+2
+  get: ^3.13.2
+  http: ^0.12.2
+  intl: ^0.16.1
+  google_fonts: ^1.1.1
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
